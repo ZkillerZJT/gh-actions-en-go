@@ -1,13 +1,11 @@
 name: hola-mundo
-
-on:
+'on':
   push:
     branches:
       - main
-
 jobs:
   Hello:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: Hello World!
         run: echo "Hello World"
