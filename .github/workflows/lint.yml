@@ -1,4 +1,4 @@
-name: Linting Go code
+name: Linting Go code!
 
 on:
   push:
