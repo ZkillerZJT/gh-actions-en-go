@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-name: hola mundo
+name: hola-mundo
 
 on:
     push:
