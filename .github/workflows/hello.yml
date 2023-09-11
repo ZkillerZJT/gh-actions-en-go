@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: hola mundo
 
 on:
@@ -9,4 +10,17 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: hola mundo!
+=======
+name: hola mundo
+
+on:
+    push:
+        branches:
+            - main
+jobs:
+    hello:
+        runs-on: ubuntu-latest
+        steps:
+            - name: hola mundo!
+>>>>>>> b64cbc04d414c9081b90c8a994fb86041d6eb0ed
               run: echo "hola mundo!"
